@@ -4,34 +4,100 @@
 			My Forum
 		</h1>
 	</div>
-	<div class="header">
-		<h4 class = "title">
-			Thread 1
-		</h4>
-		<div class = "bottom">
-			<p class = "timestamp">
-				07/05/2022
-			</p>
-			<p class = "comment-count">
-				8 comments
-			</p>
-		</div>
-	</div> 
-	<textarea></textarea>
-	<button>add comment</button>
-	<div class="comments">
-		<div class = "comment">
-			<div class="top-comment">
-				<p class="user"> 
-					Aaron	
-				</p>
+	<div class="main">
+		<div class="header">
+			<h4 class = "title">
+				Thread 1
+			</h4>
+			<div class = "bottom">
 				<p class = "timestamp">
 					07/05/2022
 				</p>
+				<p class = "comment-count">
+					8 comments
+				</p>
 			</div>
-			<div class="comment-content">
-				Comment text here
+		</div> 
+		<textarea></textarea>
+		<button>add comment</button>
+		<div class="comments">
+			<div class = "comment">
+				<div class="top-comment">
+					<p class="user"> 
+						Aaron	
+					</p>
+					<p class = "comment-ts">
+						07/05/2022
+					</p>
+				</div>
+				<div class="comment-content">
+					Comment text here
+				</div>
+			</div>
+			<div class = "comment">
+				<div class="top-comment">
+					<p class="user"> 
+						Aaron	
+					</p>
+					<p class = "comment-ts">
+						07/05/2022
+					</p>
+				</div>
+				<div class="comment-content">
+					Comment text here
+				</div>
 			</div>
 		</div>
-	</div> 
+		</div> 
+	<style>
+		body {
+			margin: 10px 60px;
+		}
+		a {
+			text-decoration:  none;
+			color:  black;
+		}
+		h1, h4, ol {
+			margin:  0;
+		}
+		p {
+			margin:  5px 0;
+		}
+		textarea {
+			width: 80%;
+			heigh: 80px;
+		}
+		button {
+			display: block;
+			margin: 10px 0;
+		}
+		.top-bar {
+			background-color:  limegreen;
+			padding: 0 40px;
+		}
+		.main {
+			background-color: #F6F6EF;
+			padding: 10px 40px;
+		}
+		.comments {
+			margin: 40px 0;
+		}
+		.comment {
+			margin: 10px 0;
+		}
+		.row {
+			padding:  5px 0;
+		}
+		.bottom, .top-comment {
+			display:  flex;
+			color: grey;
+			font-size: 12px;
+		}
+		.timestamp {
+			padding-right:  10px;
+		}
+		.comment-ts{
+
+		}
+	</style>
 </body>
